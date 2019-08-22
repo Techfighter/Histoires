@@ -1,0 +1,83 @@
+﻿/Espace_3d 5x5x3, qui tourne dans une boucle. Fichier s'écrie sur 4 ligne dans des tableaux de 75 case.
+/Lignes: 1-Nom Objet, 2-Description Objet, 3-Nom Lieux,Interactions, 4-Description Lieux. Directions possible.
+/Nom Objets est une liste de se qui se trouve sur place. Description est classer dans la même ordre.
+/Retirer tout les saut de ligne et '/Commentaire' avant de sauvegarder sur un autre nom.
+/Évité de sortir de la structure par accident. Si un de ces cas arrivent [ ''],['],[''.], ['",,] rien ne marchera!
+
+/NOM OBJET: Si l'objet début par une lettre Majuscule, il ne sera pas transportable. Ex:Maison(Non), lettre(Oui)
+[[[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], ['arme', 'Zombie', 'Carfour'], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]]]
+
+/DESCRIPTION OBJET: Fait s'en la publicité. Ou donner un indice quand on l'examine.
+[[[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], ['Une arme improvisé qui trénnait dans la rue.', 'Le Walker vous a vu, il sant la mort!', 'Le Carfour routier privé d'électricité est encombré de voiture carembolé hore d'usage.'], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]]]
+
+/NOM LIEUX: Plus Actions de Quête. Ex: Nom (Lieux), liste actions a faire avec ou sans OBJET(s),,,objet obtenu
+[[[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], ['Départ', 'Prendre arme.', 'Tuer zombie avec arme.', 'arme cassé'], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]]]
+
+/DESCRIPTION LIEUX: Grand explication avant la petite toujours séparer '. ', Si Actions (Naration, Description)
+/Ex: Vous être dans (lieu). Vous voyez (trucs spécifique la première fois)'. Vous pouvez aller (N,S,E,O).'
+/Ensuite entre virgule: revien Naration de la liste chose a y faire dans l'ORDRE écrit, FIN description trésor
+[[[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], ['Vous êtes au centre d'un Carfour routier. Un zombie isolé veux vous attaqué mais il est encore temps de fuire. Vous pouvez aller vers, Nord, Sud, Est, Ouest.', 'Le Walker arrive jusqu'a vous pour mordre.', 'Vous tuer zombie mais votre arme se casse.', 'Une arme cassé guerre utile.'], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]],
+ 
+ [[[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']],
+  [[''], [''], [''], [''], ['']]]]
