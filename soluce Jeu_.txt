@@ -1,0 +1,176 @@
+Voici la soluce rapide du jeu.
+J'ai tout concentré pour accélérer la navigation avec des diagonals ou en contournant les monstres.
+Elle se faite en 4 "Actes" en Surface et en profondeur dans la Mines
+Les ligne noté d'un # sont facultative mais ammusante, vous pouvez aussi tout regarder.
+Si vous êtes encombré a un moment ou a une autre, vous pouvez 'tout jeté', revenir 'tout prendre'
+Et si vous avez predus un objet important servez vous de 'vision' pour vous rappelé où et quand vous l'aviez en dernier,
+ou 'remonté le temps' pour le dupliqué a volonté. Certain objet ne servent a rien, comme le 'dés' ou la 'mauvaise herbe'
+Bon jeu signé l'auteur annonyme
+
+"SurfaceI"
+ouvrir boite-a-courrier
+prendre pub
+#regarder pub
+se
+#regarder arbre
+prendre bois-mort
+ne
+#regarder jardin
+prendre champignon
+sud
+regarder fondation
+regarder altar
+prendre pierre
+so
+#regarder tente
+prendre allumette
+prendre bouteille
+ouest
+ouest
+ouest
+prenrdre bouteille
+ne
+#regarder marrais
+prendre moustiques
+ouest
+#regarder crapaud
+donner moustiques au crapaud
+prendre pièces-d'argent
+so
+sud
+placé pub dans bouteille
+mettre champignon sur bouchon
+jeter bouteille dans rivière
+repêché bouteille
+prendre lettre
+#regarder lettre
+ouest
+placer pierre dans espace foyer
+déposer lettre dans foyer
+déposer bois-mort dans foyer
+allumer foyer avec allumette
+prendre torche
+ouest
+remplir bouteille avec eau
+prendre bouteille-d'eau
+ouest
+prendre poisson
+ouest
+prendre baies
+sud
+#regarder Troll
+parlé au Troll
+donné baies au Troll
+donné poisson au Troll
+donné bouteille-d'eau au Troll
+prendre moule-arme
+est
+est
+prendre herbe
+se
+entrer par ouverture
+déposé herbe dans chaudière
+allumé chaudière avec torche
+placé pièces-d'argent dans moule-arme
+#regarder couteau
+prendre couteau
+ouest
+#regarder puis
+descendre
+
+"MineI"
+#regarder échelle
+nord
+no
+#sud, regarder mort, prendre note, regarder note, jeté note, nord
+ouest
+regarder détritus
+chercher dans détritus
+ouvrir coffret
+prendre or
+ne
+ne
+no
+so
+est
+prendre allumette
+so
+#prendre champignon
+no
+tirer le monte-charge
+prendre charbon
+nord
+no
+prendre moulage
+ne
+prendre huile
+sud
+so
+so
+se
+est
+placé charbon dans chaudière
+placé or dans moulage
+allumé chaudière avec allumette
+prendre clé-or
+ouest
+no
+no
+no
+dévérouiller le coffre-fort avec clé-or
+prendre clé-anglaise
+sud
+sud
+utilisé huile sur assensseur
+utilisé clé-anglaise sur assensseur
+Descendre
+
+"MineII"
+sud
+prendre diamant
+est
+ne
+prendre rhodonite
+nord
+prendre émeraude
+#nord, tuer squelette avec couteau, prendre couteau, no
+no
+nord
+prendre rubis
+so
+blood-stone
+so
+prendre citrine
+no
+prendre saphire
+ne
+prendre agate
+no
+prendre améthyte
+#ouest, tuer mort-vivant avec couteau, tuer zombie avec couteau, tuer squelette avec couteau, prendre couteau, no, ouest, monter
+no, ouest, ouest, monter
+ne
+est
+actionner assensseur
+monter
+
+"MineI"
+ne
+est
+monter
+
+"SurfaceII"
+se
+est
+placer rubis sur Altar
+placer agate sur Altar
+placer blood-stone sur Altar
+placer saphir sur Altar
+placer émeraude sur Altar
+placer citrine sur Altar
+placer rhodonite sur Altar
+placer diamant sur Altar
+placer améthyste sur Altar
+regarder castel
+
+"FIN"
